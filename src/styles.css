@@ -1,113 +1,121 @@
 body {
-    font-family: "Rokkitt", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #f3ecf7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-image: url("img/PoemGen-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 50px;
-    text-align: center;
-    line-height: 1.5;
-    color: #542d84;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.5;
+  color: #542d84;
 }
 
 header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .form_container {
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 40px rgba(55, 25, 75, 0.2);
-    border-radius: 5px;
-
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(55, 25, 75, 0.2);
+  border-radius: 5px;
 }
 
 form {
-
-    display: flex;
+  display: flex;
 }
 
 footer {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
 }
 
 a {
-    color: #542d84;
+  color: #542d84;
 }
 
 .container {
-    margin: 120px auto;
-    max-width: 600px;
+  background-color: #eeeaf3;
+  box-shadow: 0px 0px 40px rgba(55, 25, 75, 0.5);
+  border-radius: 10px;
+  padding: 50px;
+  margin: 120px auto;
+  min-width: 500px;
+  max-width: 1000px;
 }
 
 .instructions {
-    padding: 15px;
-    border: 1px solid #542d84;
-    width: 80%;
-    font-family: "Rokkitt", serif;
-    font-size: 20px;
-    border-radius: 30px;
-    color: #542d84;
+  padding: 15px;
+  border: 1px solid #542d84;
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  border-radius: 30px;
+  color: #542d84;
 }
 
 .submit_button {
-    padding: 15px;
-    margin-left: 15px;
-    border: none;
-    width: 120px;
-    font-family: "Rokkitt", serif;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: #542d84;
-    color: #ffffff;
+  padding: 15px;
+  margin-left: 15px;
+  border: none;
+  width: 120px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: #542d84;
+  color: #ffffff;
 }
 
 .poem {
-    font-size: 20px;
-    background-color: #ffffff;
-    padding: 20px;
-    line-height: 1.8;
-    border-left: 5px solid #542d84;
-    box-shadow: 0px 0px 40px rgba(55, 25, 75, 0.2);
-    border-radius: 5px;
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 18px;
+  line-height: 1.8;
+  border-left: 5px solid #542d84;
+  box-shadow: 0px 0px 40px rgba(55, 25, 75, 0.2);
+  border-radius: 5px;
 }
 
 .poem strong {
-    font-size: 14px;
-    color: #542d84;
+  font-size: 14px;
+  color: #542d84;
 }
 
 .hint {
-    line-height: 2;
-    margin: 5px 15px 15px 10px;
-    opacity: 0.4;
-    font-size: 14px;
+  line-height: 2;
+  margin: 5px 15px 15px 10px;
+  opacity: 0.4;
+  font-size: 14px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
-
 .generating {
-    animation: generating 1s steps(2, start) infinite;
+  animation: generating 1s steps(2, start) infinite;
 }
 
 @keyframes generating {
-    to {
-        opacity: 50%;
-    }
+  to {
+    opacity: 50%;
+  }
 }
 
 @-webkit-keyframes generating {
-    to {
-        opacity: 50%;
-    }
+  to {
+    opacity: 50%;
+  }
 }
