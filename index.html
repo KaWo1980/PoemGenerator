@@ -21,13 +21,16 @@
         </header>
 
         <main>
-            <form id="poem_generator_form" action="">
-                <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off"
-                    class="instructions" id="user_input" />
-                <input type="submit" class="submit_button" />
-            </form>
+            <div class="form_container">
+                <form id="poem_generator_form" action="">
+                    <input type="text" placeholder="Enter your topic of the poem here" autofocus required
+                        autocomplete="off" class="instructions" id="user_input" />
+                    <input type="submit" class="submit_button" />
+                </form>
+                <div class="hint">i.e. love, people, flower...</div>
 
-            <div class="poem" id="poem">give me your keyword to create a poem for you</div>
+                <div class="poem hidden" id="poem"></div>
+            </div>
         </main>
 
         <footer>
